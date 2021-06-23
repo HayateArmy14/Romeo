@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+.navbar-links {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.wave {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+@media (max-width: 700px) {
+  .wave {
+    font-size: 0.9rem;
+  }
+}
+
+.intro-header h2 {
+  font-family: sans-serif;
+}

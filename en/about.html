@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/our-logo.jpg" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/about.css" />
+    <title>Romeo| About Us </title>
+  </head>
+  <nav class="navbar shift main-navbar" id="nav-1">
+    <div style="font-size: 3rem; color: rgb(250, 200, 126)" class="brand-logo">
+      <a href="index.html">ROMEO</a>
+    </div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="#"> ABOUT US</a></li>
+        <li><a href="pantry.html">OUR PANTRY</a></li>
+        <li><a href="location.html">LOCATION</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section-1">
+    <h1>About Us</h1>
+    <div class="color"></div>
+  </section>
+  <section class="section-2">
+    <div class="story-container">
+      <p class="story-title">Our Story</p>
+      <p
+        class="story-text"
+        style="font-style: italic; font-size: 1.5rem; letter-spacing: 0.02rem"
+      >
+        Since 1992, our family businness has depended on the quality of our
+        costumer service, respect and on the usage of Local and Traditional
+        Limnos' products. During so many years we have fought and supported all
+        our efforts to promote the area and Lemnos in general. Respect and
+        appreciation for the customer has never been based on irresponsible and
+        sloppy solutions but on essential and qualitative criteria, which
+        distinguish our cuisine. This continuous course has been identified with
+        our will and patience to accept criticism, to adopt new ideas and to
+        support new producers who believe in pure and natural products, which we
+        want to highlight by promoting the "secret" treasures of our island.
+      </p>
+    </div>
+    <div
+      class="story-img img-1"
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-duration="1000"
+    >
+      <img src="/images/exwteriko-2.jpg" alt="Romeo Restaurant top-view" />
+    </div>
+    <div
+      class="story-img img-2"
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-duration="1000"
+    >
+      <img src="/images/eswteriko.jpg" alt="Romeo Restaurant indoors" />
+    </div>
+  </section>
+  <section class="mobile-section">
+    <div class="story-container">
+      <p class="story-title">Our Story</p>
+      <p
+        class="story-text story-text-1"
+        style="font-style: italic; font-size: 1.5rem; letter-spacing: 0.02rem"
+      >
+        Since 1992, our family businness has depended on the quality of our
+        costumer service, respect and on the usage of Local and Traditional
+        Limnos' products. During so many years we have fought and supported all
+        our efforts to promote the area and Lemnos in general.
+      </p>
+    </div>
+    <div
+      class="story-img img-1"
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-duration="1000"
+    >
+      <img src="/images/exwteriko-2.jpg" alt="Romeo Restaurant top-view" />
+    </div>
+    <div
+      class="story-img img-2"
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-duration="1000"
+    >
+      <img src="/images/eswteriko.jpg" alt="Romeo Restaurant indoors" />
+    </div>
+    <div class="story-container">
+      <p
+        class="story-text story-text-2"
+        style="font-style: italic; font-size: 1.5rem; letter-spacing: 0.02rem"
+      >
+        Respect and appreciation for the customer has never been based on
+        irresponsible and sloppy solutions but on essential and qualitative
+        criteria, which distinguish our cuisine. This continuous course has been
+        identified with our will and patience to accept criticism, to adopt new
+        ideas and to support new producers who believe in pure and natural
+        products, which we want to highlight by promoting the "secret" treasures
+        of our island.
+      </p>
+    </div>
+  </section>
+  <footer>
+    <div class="h2-div">
+      <h2 class="h2-1">Romeo Restaurant &copy;</h2>
+      <h2 class="h2-2">Murina Lemnos</h2>
+      <h2 style="font-size: 1.3rem" class="h2-2">(+30) 22540 22622</h2>
+    </div>
+    <div class="sitemap">
+      <p><a href="menu.html">MENU</a></p>
+      <p><a href="about.html">ABOUT</a></p>
+      <p><a href="pantry.html">OUR PANTRY</a></p>
+      <p><a href="location.html">LOCATION</a></p>
+    </div>
+    <div class="social">
+      <p id="fb-social">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/Romeo-1041091849295182"
+          ><img src="/images/facebook.png" alt="instagram icon"
+        /></a>
+      </p>
+      <p>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/romeo_seaside_restaurant/"
+          ><img src="/images/insta.png" alt="instagram icon"
+        /></a>
+      </p>
+      <p id="backHome">
+        <a href="#"><img src="/images/home.png" alt="Home Icon" /></a>
+      </p>
+    </div>
+  </footer>
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".main-navbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
+  <script src="/hamburger.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <body></body>
+</html>

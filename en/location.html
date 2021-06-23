@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/our-logo.jpg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/location.css" />
+    <title>Romeo | Location | Contact</title>
+  </head>
+  <nav class="navbar shift" id="main-navbar">
+    <div style="font-size: 3rem; color: rgb(250, 200, 126)" class="brand-logo">
+      <a href="index.html">ROMEO</a>
+    </div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="about.html"> ABOUT US</a></li>
+        <li><a href="pantry.html">OUR PANTRY</a></li>
+
+        <li><a href="/">LOCATION</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section-1">
+    <h1>Location</h1>
+    <div class="color"></div>
+  </section>
+  <section class="story">
+    <div class="castle-img">
+      <img src="/images/pro-romeo/ΡΟ (217).jpg" alt="Romeo Restaurant View with Murina's Castle">
+    </div>
+    <div class="castle-story">
+      <div class="castle-title">
+        Next to the Sea Under the Castle
+      </div>
+      <div class="castle-text">
+        
+        The Venetian Castle of Myrina or "Paliokastro" is the trademark of the capital of Lemnos and is the largest fortress in the Aegean.
+        That is why Myrina is called by the locals even "Castro" (Castle in Greek). At the foot of this impressive gem of Lemnos
+        and right next to the sea lays Romeo restaurant, ready to serve with its unique flavors, anybody who wants to enjoy
+        the exquisite and unique view and location.      </div>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="location">
+      <p id="title">We'd love to serve you</p>
+      <div id="find-us">
+        <p id="find-title">Find us At:</p>
+        <p id="find-text">Navarhou Kountourioti 4, Murina 81 400</p>
+      </div>
+      <div id="timetable">
+        <p id="opened">Open Every Day</p>
+        <p id="days">Monday-Sunday</p>
+        <p id="hours">12:00-02:00</p>
+      </div>
+      <div id="booking">
+        <p id="booking-title">Book Your Table</p>
+        <p id="booking-phone">(+30) 22540 22622</p>
+      </div>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12247.396487496726!2d25.0589122!3d39.8776174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x407bddca3f679717!2sRomeo%20Restaurant!5e0!3m2!1sel!2sgr!4v1620459592925!5m2!1sel!2sgr"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+  </section>
+
+  <footer>
+    <div class="h2-div">
+      <h2 class="h2-1">Romeo Restaurant &copy;</h2>
+      <h2 class="h2-2">Murina Lemnos</h2>
+      <h2 style="font-size: 1.3rem" class="h2-2">(+30) 22540 22622</h2>
+    </div>
+    <div class="sitemap">
+      <p><a href="menu.html">MENU</a></p>
+      <p><a href="about.html">ABOUT</a></p>
+      <p><a href="pantry.html">OUR PANTRY</a></p>
+      <p><a href="location.html">LOCATION</a></p>
+    </div>
+    <div class="social">
+      <p id="fb-social">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/Romeo-1041091849295182"
+          ><img src="/images/facebook.png" alt="facebook icon"
+        /></a>
+      </p>
+      <p>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/romeo_seaside_restaurant/"
+          ><img src="/images/insta.png" alt="instagram icon"
+        /></a>
+      </p>
+      <p id="backHome">
+        <a href="#"><img src="/images/home.png" alt="home icon" /></a>
+      </p>
+    </div>
+  </footer>
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#main-navbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
+  <script src="/hamburger.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <body></body>
+</html>
